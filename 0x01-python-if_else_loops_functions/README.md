@@ -1,0 +1,1 @@
+# second exercises on python programming language
