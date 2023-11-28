@@ -9,6 +9,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct listint_s
 {
@@ -18,4 +19,4 @@ typedef struct listint_s
 
 int check_cycle(listint_t *list);
 
-#endif
+#endif /* LISTS_H */
