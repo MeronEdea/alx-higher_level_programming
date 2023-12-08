@@ -1,6 +1,10 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+
 /**
  * @dlistint_s:  structure
  * @n : integer value
