@@ -1,1 +1,0 @@
-# additional exercises on doubly linked list with c-programming language
