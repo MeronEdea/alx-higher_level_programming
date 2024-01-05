@@ -97,18 +97,18 @@ class Rectangle:
 
         """
         return self.height * self.width
-    
+
     def perimeter(self):
         """ method that returns perimeter of rectangle
 
         Args:
             height:
             width:
-        
+
         Returns: Perimeter value
 
         """
         if self.width == 0 or self.height == 0:
             return 0
-        
+
         return (self.width*2) + (self.height*2)
