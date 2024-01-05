@@ -93,6 +93,8 @@ class Rectangle:
             height:
             width:
 
+        Returns: Area value
+
         """
         return self.height * self.width
     
@@ -102,9 +104,11 @@ class Rectangle:
         Args:
             height:
             width:
+        
+        Returns: Perimeter value
 
         """
         if self.width == 0 or self.height == 0:
             return 0
-        else:
-            return (2*self.width) + (2*self.height)
+        
+        return (self.width*2) + (self.height*2)
