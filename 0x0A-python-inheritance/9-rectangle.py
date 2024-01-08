@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""defines a class that imports 7-base_geometry """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
