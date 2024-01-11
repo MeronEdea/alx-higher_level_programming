@@ -1,0 +1,31 @@
+Importing function from the module:
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Passing Node as a text
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    	      ...
+    TypeError: text must be a string
+
+Passing a number as a text
+
+    >>> text_indentation(10)
+    Traceback (most recent call last):
+    	      ...
+    TypeError: text must be a string
+
+Printing a char number
+
+    >>> text_indentation('2')
+    2
+
+Passing an empty string
+
+    >>> text_indentation('    ')
+
+Passing a new line as a text
+
+    >>> text_indentation('\n')
+    <BLANKLINE>
