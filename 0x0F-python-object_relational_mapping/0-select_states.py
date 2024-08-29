@@ -3,6 +3,7 @@
 # Usage: ./0-select_states.py <mysql username> \
 #                             <mysql password> \
 #                             <database name>
+""" Module that lists all states from the database in ascending order"""
 import sys
 import MySQLdb
 
